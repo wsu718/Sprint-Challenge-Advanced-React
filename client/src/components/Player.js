@@ -3,7 +3,7 @@ import React from 'react';
 const Player = props => {
 
     return (
-        <div className="playerCard">
+        <div className="playerCard" data-testid="playerCard">
             <img width="50" src="https://image.flaticon.com/icons/svg/53/53283.svg" alt="soccerball"></img>
             <p>{props.player.name}</p>
             <p>{props.player.country}</p>

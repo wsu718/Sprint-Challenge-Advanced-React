@@ -14,7 +14,7 @@ const Navbar = () => {
         <nav className="navbar">
             <h1>Soccer Star Searches</h1>
             <div>Dark mode:</div>
-            <div className="dark-mode__toggle">
+            <div className="dark-mode__toggle" data-testid="toggle">
 
                 <div
                     onClick={toggleMode}
