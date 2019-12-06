@@ -31,3 +31,15 @@
     transform: rotate(360deg);
   }
 }
+
+.playerList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.playerCard {
+  width: 200px;
+  background-color: lightblue;
+  margin: 2%;
+  padding: 2%;
+}
